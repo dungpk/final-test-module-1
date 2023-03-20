@@ -55,7 +55,8 @@
 // let a = checkExistenceInString(b, c);
 // document.write(a);
 
-/*Cau3: Ve hinh chu nhat:  */
+/*Cau4: Ve hinh chu nhat:  */
+/*Bo comment canvas trong html */
 // function Rectangle(height,width,x,y,color)
 // {
 //     this.height = height;
@@ -64,8 +65,8 @@
 //     this.y = y;
 //     this.color = color
 //
-//     this.render = function() {
-//         this.canvas = document.getElementById("DemoCanvas");
+//     this.render = function(id) {
+//         this.canvas = document.getElementById(id);
 //         this.ctx = this.canvas.getContext('2d');
 //         this.ctx.beginPath()
 //         this.ctx.rect(this.x,this.y,this.width,this.height);
@@ -76,7 +77,7 @@
 //     }
 // }
 // let rec = new Rectangle(100,200,10,10,"#000000");
-// rec.render();
+// rec.render("DemoCanvas");
 // document.write("<br>")
 // document.write(rec.x+"<br>")
 // document.write(rec.y+"<br>")
